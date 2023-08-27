@@ -317,7 +317,7 @@ Settings(60)
 		end
 
 function SettingsGui()
-	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	local ScreenGui1 = Instance.new("ScreenGui")
 	ScreenGui1["Name"] = "Settings"
 	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
 	ScreenGui1["Parent"] = LibraryGui
